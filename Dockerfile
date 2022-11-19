@@ -7,7 +7,7 @@ WORKDIR /frontend
 COPY . .
 
 # Install dependencies
-RUN npm install
+RUN npm install -g npm@9.1.2
 
 # Build app
 RUN npm run build
