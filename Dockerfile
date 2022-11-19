@@ -11,6 +11,8 @@ RUN npm install -g npm@9.1.2
 
 RUN npm install react-scripts@5.0.1 -g
 
+RUN npm install react-dom react
+
 # Build app
 RUN npm run build
 
