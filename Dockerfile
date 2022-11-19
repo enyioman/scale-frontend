@@ -1,5 +1,5 @@
 FROM node:16-alpine as builder
-
+ENV NODE_ENV production
 # Add a work directory
 WORKDIR /frontend
 
