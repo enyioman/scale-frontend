@@ -9,6 +9,8 @@ COPY . .
 # Install dependencies
 RUN npm install -g npm@9.1.2
 
+RUN npm install react-scripts@5.0.1 -g
+
 # Build app
 RUN npm run build
 
